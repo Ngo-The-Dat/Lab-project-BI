@@ -1,0 +1,15 @@
+services:
+  magic:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: mageai-lab-project:latest
+    container_name: mage_ai_app
+    restart: on-failure
+    ports:
+      - "6789:6789"
+    environment:
+      USER_CODE_PATH: /home/src
+    volumes:
+      - .:/home/src
+    command: mage start lab_project_bi

@@ -1,0 +1,7 @@
+duckdb
+pyarrow
+fastparquet
+geopandas
+shapely
+dbfread
+

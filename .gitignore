@@ -1,0 +1,8 @@
+# Dữ liệu thực tế trên máy
+dataset/
+
+# Runtime và cache thực tế của Mage AI và Python
+mage_data/
+**/.file_versions/
+**/.ssh_tunnel/
+**/__pycache__/
